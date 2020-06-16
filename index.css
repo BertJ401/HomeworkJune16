@@ -1,0 +1,32 @@
+body {
+    background: lightgrey
+}
+
+
+.header {
+    color: darkgray;
+}
+
+.footee {
+    position:fixed;
+    bottom: 0px;
+    text-align: center;
+}
+
+.floater {
+    float: left;
+}
+.navbarSupportedContent {
+
+}
+
+.img-thumbnail {
+    width: 300px;
+    height: 300px;
+}
+
+#indexP {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
