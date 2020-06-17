@@ -10,27 +10,22 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <span class="navbar-brand mb-0 h1">Bert Johnson</span>
-    
-      <div class="collapse navbar-collapse" id="navbaContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-          
-          </ul>
+  <nav class="navbar navbar-expand-lg navbar-light gradCSS">
+    <a class="navbar-brand" href="#">Bert Johnson</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="index.html">Home </a>
+        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-item nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <div class="container">
-        <form class="w-75">
+    <div class="container contCSS">
+        <form class="formCSS">
             <div class="form-group">
                 <label for="nameContact">Your Name</label>
                 <input type="text" class="form-control" id="nameContact" placeholder="Your Name">
@@ -46,19 +41,25 @@
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter Comment Here"></textarea>
             </div>
           </form>
-          <button type="button" class="btn btn-secondary">Submit</button>
+          <button type="button" class="btn btn-info">Submit</button>
 
       </div>
        
 
     </div>
 
-<footer class="page-footer font-small grey pt-4">
-    <div class="footee">Powered by:
-      <a href="https://bootcampspot.com/">Trilogy Bootcamp</a>
-    </div>
+    <footer class="page-footer font-small grey container-fluid  pt-4">
+    
+      <div class="footer container-fluid justify-content-center gradCSS">
+        <div class="container-fluid  justify-content-center">
+   
+          <span white>Powered by: </span>
+        <a href="https://bootcampspot.com/">Trilogy Bootcamp</a>
+        </div>
   
-</footer>
+      </div>
+  
+    </footer>
 
 </body>
 </html>

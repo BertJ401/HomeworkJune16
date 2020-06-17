@@ -1,32 +1,61 @@
+
 body {
-    background: lightgrey
+    background: lightcyan;
 }
 
-
-.header {
-    color: darkgray;
+br {
+    display: block; 
+    content: ""; 
+    margin-top: 10px; 
 }
 
-.footee {
+.gradCSS {
+    background-image: linear-gradient(to right, rgb(107, 207, 207), white)
+}
+
+.contCSS {
+    margin-top: 20px;
+
+}
+
+.formCSS {
+    width: 75%
+}
+
+.footer {
     position:fixed;
     bottom: 0px;
     text-align: center;
+    left: 0px;
 }
 
 .floater {
     float: left;
 }
-.navbarSupportedContent {
 
-}
 
 .img-thumbnail {
     width: 300px;
     height: 300px;
 }
 
+
+#mainContent {
+    width: 90%;
+}
+
+
 #indexP {
     width: 200px;
     height: 200px;
     margin: 20px;
 }
+
+@media screen and (max-width: 768px) {
+
+    .floater, .formCSS, #mainContent {
+      width: 100%;
+    }
+ 
+  }
+  
